@@ -21,11 +21,11 @@ There is a significant difference between actual_distance_to_destination and osr
 4.
 There is a significant difference between segment_osrm_time_sum and osrm_time which shows that the ML model’s prediction is statistically significantly wrong.  
 5.
-The top 5 states are : maharashtra, karnataka, haryana, tamil nadu, telangana  
+The top 5 states are : **Maharashtra, Karnataka, Haryana, Tamil Nadu, Telangana**  
 6.
-The top 5 cities are : bengaluru, mumbai, gurgaon, delhi, hyderabad  
+The top 5 cities are : **Bengaluru, Mumbai, Gurgaon, Delhi, Hyderabad**  
 7.
-The day on which most orders are generated is a Wednesday.  
+The day on which most orders are generated is a **Wednesday**.  
 
 **Recomendations**  
 •
