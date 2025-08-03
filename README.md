@@ -12,25 +12,41 @@ Clean, sanitize and manipulate data to get useful features out of raw fields
 Make sense out of the raw data and help the data science team to build forecasting models onit.  
 
 **Conclusion**  
-1.
-The data set is corresponding to only 2 months, so not much can be concluded about the seasonal or month-over-month or year-over-year patterns.  
-2.
-There is a significant difference between actual_time and segment_actual_time_sum which shows there is discrepancy in data entry.  
-3.
-There is a significant difference between actual_distance_to_destination and osrm_distance which shows that the ML model’s prediction is statistically significantly wrong or the delivery executives are not following the predetermined route.  
-4.
-There is a significant difference between segment_osrm_time_sum and osrm_time which shows that the ML model’s prediction is statistically significantly wrong.  
-5.
-The top 5 states are : **Maharashtra, Karnataka, Haryana, Tamil Nadu, Telangana**  
-6.
-The top 5 cities are : **Bengaluru, Mumbai, Gurgaon, Delhi, Hyderabad**  
-7.
-The day on which most orders are generated is a **Wednesday**.  
+**1-Limited Timeframe**
 
-**Recomendations**  
-•
-Should work on imroving the ML model to improve business.  
-•
-Should focus more on those states and cities that provide us with more business by enabling more carries and better infrastructure.  
-•
-Should be ready with more orders on Wednesday by enabling long-shifts and getting more work force.  
+The dataset spans only two months, which restricts the ability to draw conclusions about seasonal trends or long-term patterns such as month-over-month or year-over-year changes.
+
+**2-Data Discrepancy in Time Metrics**
+
+A notable difference between actual_time and segment_actual_time_sum suggests inconsistencies in data entry or logging practices.
+
+
+**3-Inconsistency in Predicted Time**
+A significant difference between segment_osrm_time_sum and osrm_time points to potential inaccuracies in the ML model’s time estimations.
+
+**4-Top Performing States**
+
+The five states contributing the most business are: Maharashtra, Karnataka, Haryana, Tamil Nadu, and Telangana.
+
+**5-Top Performing Cities**
+
+The leading cities in terms of order volume are: Bengaluru, Mumbai, Gurgaon, Delhi, and Hyderabad.
+
+**6-Peak Order Day**
+
+The highest number of orders are placed on Wednesdays, indicating a mid-week surge in demand.
+
+**#✅ Recommendations**
+
+**Enhance ML Model Accuracy**
+
+Invest in refining the machine learning model to improve predictions related to time and distance, thereby boosting operational efficiency.
+
+**Focus on High-Performing Regions**
+
+Prioritize infrastructure development and carrier enablement in top-performing states and cities to capitalize on existing demand and drive growth.
+
+**Optimize Mid-Week Operations**
+
+Prepare for increased order volumes on Wednesdays by scheduling extended shifts and deploying additional workforce to meet demand effectively.
+  
